@@ -44,7 +44,7 @@ public class Human {
 	public String toString() {
 		return "Human [name=" + name + ", age=" + age + ", weight=" + weight + "]";
 	}
-	// This method makes it easier to read
+	// This method makes the presented object information easier to read
 	
 	
 }

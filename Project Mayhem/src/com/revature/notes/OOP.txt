@@ -12,7 +12,8 @@ Object oriented programming
 		Overloading - Same name, diff parameters. 
 			Parametric Polymorphism - The ability for the complier to determine which method to call based on the inputs given
 		Multiple "is-a" relationships Object>Animal>Cat
-			Covariance
+			Covariance - every cat is an animal
+			Contravariance - every animal is not a cat
 	Abstraction 
 		Often omitted as one of the pillars of OOP
 		Hiding the implementation details.  "What is does, not how it does it"

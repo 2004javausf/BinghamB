@@ -18,6 +18,25 @@ public class Human {
 	* 		Static methods - behavior shared by all in a class
 	* 		Constructor- function that instantiates a class using the keyword "new"
 */
+//	Code Blocks - {things between curly braces}  static> instance> compiler
+	//Instance code block - will run whenever class is instantiated 
+	{System.out.println("I'm in an instance code block");}
+	//static code block - will run once when the class is loaded into the compiler
+	static {System.out.println("I'm in a static code block");}
+	
+//constructor example
+	public Human() {
+		System.out.println("I'm in the 'no args' constructor");
+	} //it's good practice to include a "no args constructor"
+	
+	public Human(String name, int age, int weight) { //this is called a "constructor w/ fields or arguments"
+		//super(); is called implicitly
+		this.name=name;
+		this.age=age;
+		this.weight=weight;
+		System.out.println("I'm in the constructor w/ fields");
+	}
+	
 	private String name;
 	private int age;
 	private int weight;
@@ -37,6 +56,7 @@ public class Human {
 	public int getWeight() {
 		return weight;
 	}
+	//example of shadowing!
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}

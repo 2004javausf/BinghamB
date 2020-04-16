@@ -1,6 +1,10 @@
 package com.revature.driver;
 
-import com.revature.beans.Human;
+import java.util.Date;
+
+import com.revature.beans.Human; //gains access to Human class
+// import com.revature.beans.*  - imports everything in beans
+// static import com.revature.beans.Human - gains access to only static members of class
 
 public class Driver {
 	//single comment
@@ -30,6 +34,10 @@ public class Driver {
 	*/
 	
 	public static void main(String[] args) {
+		Date d=new Date(); //when using ctrl+shift+O brings up multiple packages in which date exists
+		java.sql.Date e=new java.sql.Date(0); //fully qualified names are required when multiple instances of a class exist
+		//alias's do not exist in Java
+		
 		/*
 		 * Method signature
 		 * 		Access modifiers
@@ -40,13 +48,14 @@ public class Driver {
 		 * 			String[] args - can accept an array of strings
 		 */
 		System.out.println("Bear Down");
-		Human h= new Human();
-		System.out.println(h);
-		h.setName("Brad");
-		h.setAge(33);
-		h.setWeight(180);
-		System.out.println(h);
-		System.out.println(h.getName());
+		Human i= new Human("Abid", 22, 200);
+//		Human h= new Human();
+		System.out.println(i);
+//		h.setName("Brad");
+//		h.setAge(33);
+//		h.setWeight(180);
+//		System.out.println(h);
+//		System.out.println(h.getName());
 	}
 	
 }

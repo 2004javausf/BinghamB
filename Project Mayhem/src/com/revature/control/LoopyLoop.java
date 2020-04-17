@@ -67,7 +67,6 @@ public class LoopyLoop {
 		}
 	}
 	
-	
 /*
  *While loops
  *	while(<condition>){<do something>}

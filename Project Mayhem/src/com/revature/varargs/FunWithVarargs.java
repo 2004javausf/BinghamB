@@ -13,10 +13,11 @@ public class FunWithVarargs {
 	
 	public static void vaTest(int ... v) { //takes in a variable length of int arguments
 		System.out.println("Number of args is: " + v.length);
-		System.out.print("Contents: ");
+		System.out.print("Contents: ");	
 		for(int i:v) {
 			System.out.print(i + " ");
 		}
+		System.out.println();
 	}
 	
 	public static void main(String[] args) {

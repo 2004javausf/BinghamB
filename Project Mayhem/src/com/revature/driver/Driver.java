@@ -35,7 +35,7 @@ public class Driver {
 	
 	public static void main(String[] args) {
 		Date d=new Date(); //when using ctrl+shift+O brings up multiple packages in which date exists
-		java.sql.Date e=new java.sql.Date(0); //fully qualified names are required when multiple instances of a class exist
+		java.sql.Date e=new java.sql.Date(0); //fully qualified names are required to designate between multiple similarly named classes
 		//alias's do not exist in Java
 		
 		/*
@@ -49,12 +49,12 @@ public class Driver {
 		 */
 		System.out.println("Bear Down");
 		Human i= new Human("Abid", 22, 200);
-//		Human h= new Human();
+		Human h= new Human();
 		System.out.println(i);
 //		h.setName("Brad");
 //		h.setAge(33);
 //		h.setWeight(180);
-//		System.out.println(h);
+		System.out.println(h);
 //		System.out.println(h.getName());
 	}
 	

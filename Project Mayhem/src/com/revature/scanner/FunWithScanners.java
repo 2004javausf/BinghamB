@@ -21,5 +21,4 @@ public class FunWithScanners {
 		System.out.println(a);
 		
 	}
-
 }

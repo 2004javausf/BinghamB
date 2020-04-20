@@ -4,7 +4,7 @@ public class ConstructorDemo extends D{
 
 /*
  *Constructor
- *	Special method used to instantiate an object 
+ *	Special method used to instantiate a class and create an object 
  *	No return type, returns object it creates
  *	
 */
@@ -32,6 +32,7 @@ class B extends A{ //"is-a" A and B
 	B(){
 		System.out.println("inside of B's constructor");
 	}
+	{System.out.println("B's instance");}
 }
 class C extends B{ //"is-a" A, B and C
 	C(){
@@ -44,4 +45,5 @@ class D{
 		System.out.println("inside of D's constructor");
 	}
 	static {System.out.println("D's static");}
+	{System.out.println("D's instance");} // no instance in this code
 }

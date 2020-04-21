@@ -1,5 +1,8 @@
 package com.revature.beans;
-	//packages are fancy folders. creates a Namespace
+
+import com.revature.classtypes.Hunt;
+
+//packages are fancy folders. creates a Namespace
 
 /*
  *Naming Conventions
@@ -9,7 +12,7 @@ package com.revature.beans;
  *		Constants: ALL_CAPS delimited by underscore ex. PI 
 */
 
-public class Human {
+public class Human implements Hunt {
 /*
  	* Members of a class
 	* 		Instance variables - property of a specific object ex. Human's name
@@ -66,6 +69,12 @@ public class Human {
 		return "Human [name=" + name + ", age=" + age + ", weight=" + weight + "]";
 	}
 	// This method makes the presented object information easier to read
+
+	//This is an implemented method from a interface
+	@Override
+	public void findPrey() {
+		System.out.println("I am hunting and I am a human.");
+	}
 	
 	
 }

@@ -22,6 +22,6 @@ public class Gen1<T> {  //declare the type in angle brackets
 	}
 	//show the Type of T
 	void showType() {
-		System.out.println("Type of T is: "+ ob.getClass().getName());  
+		System.out.println("Type of T is: "+ ob.getClass().getTypeName());  
 	}
 }

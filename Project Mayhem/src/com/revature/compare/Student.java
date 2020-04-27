@@ -40,7 +40,7 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public int compareTo(Student arg0) {
-		return this.getStudentID()-arg0.getStudentID(); //compares to sort numerically
+		return this.studentID-arg0.getStudentID(); //compares to sort numerically
 	}
 	
 }

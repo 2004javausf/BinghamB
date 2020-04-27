@@ -91,6 +91,7 @@ public class MyMap {
 		for(String myValues: myMap.values()) {
 			System.out.println(myValues);
 		}
+		System.out.println();
 		Set<Entry<Integer,String>> myPairs = myMap.entrySet(); //another way, find out what an Entry is
 		for(Entry<Integer,String> i: myPairs) {
 			System.out.println(i);

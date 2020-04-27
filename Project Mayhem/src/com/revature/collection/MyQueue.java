@@ -41,8 +41,7 @@ public class MyQueue {
 		System.out.println(myFirstQueue); 
 		
 		for(String i: myFirstQueue) {
-			int a=1;
-			System.out.println(i);
+			System.out.print(i+ " ");
 		}
 	}
 }

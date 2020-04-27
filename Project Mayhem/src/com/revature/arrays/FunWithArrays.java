@@ -33,5 +33,7 @@ public class FunWithArrays {
 		int [] testArr = {5};
 		System.out.println(testArr); //this sends the reference address instead of the value
 		System.out.println(Arrays.toString(testArr)); // this converts the reference to a string so it prints out.
+		System.out.print("look here");
+		System.out.println(testArr[0]);
 	}
 }

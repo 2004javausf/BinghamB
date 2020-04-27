@@ -1,5 +1,7 @@
 package com.revature.beans;
 
+import java.io.Serializable;
+
 import com.revature.classtypes.Hunt;
 
 //packages are fancy folders. creates a Namespace
@@ -12,7 +14,11 @@ import com.revature.classtypes.Hunt;
  *		Constants: ALL_CAPS delimited by underscore ex. PI 
 */
 
-public class Human implements Hunt {
+public class Human implements Hunt, Serializable { //generate serialVersion by clicking on class
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 9187957658114511135L;
 /*
  	* Members of a class
 	* 		Instance variables - property of a specific object ex. Human's name

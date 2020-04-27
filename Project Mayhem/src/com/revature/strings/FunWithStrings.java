@@ -29,10 +29,12 @@ public class FunWithStrings {
 		
 		System.out.println(b.equals(c)); //== compares values, .equals(); compares references
 		
+		System.out.println(b==c);
 		System.out.println("the character is: "+c.charAt(3)); //lots of methods for manipulating strings
 		//StringBulider
 		StringBuilder sb=new StringBuilder("Hey");
-		System.out.println(sb.hashCode());
+		sb.append(" there");
+		System.out.println(sb);
 		StringBuffer t= new StringBuffer("Woo");
 		System.out.println(t.hashCode()); //points to a different place
 		

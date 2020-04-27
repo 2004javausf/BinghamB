@@ -14,11 +14,10 @@ public class ReflectOnThis {
 		Method [] m= c.getDeclaredMethods();
 		for(int i=0;i<m.length;i++) {
 			int modifiers=m[i].getModifiers();
-			if (Modifier.isPublic(modifiers)) {
+			if (Modifier.isPrivate(modifiers)) {
 				System.out.println(" "+ m[i].getName());
 			}
 		}
-		
 		
 	}
 
@@ -33,6 +32,7 @@ class A{
 	protected void a3() {
 		
 	}
+	@SuppressWarnings("unused")
 	private void a4() {
 		
 	}

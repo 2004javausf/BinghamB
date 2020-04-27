@@ -10,8 +10,8 @@ public class NextGen {
 		i.showType();
 		//get value
 		int v= i.getOb();
-		System.out.println(i);
-		System.out.println("Value: "+ v +"\n");  //prints out fully qualified class name
+		System.out.println(i);//prints out fully qualified class name
+		System.out.println("Value: "+ v +"\n");  
 		
 		Gen1<String> s= new Gen1<String>("Generics Test");
 		s.showType();
@@ -20,7 +20,7 @@ public class NextGen {
 		
 		Gen1<Integer> a = new Gen1<>(77);
 		s.showType();
-		System.out.println("Value: "+a); //by not assigning the 
+		System.out.println("Value: "+a);
 	}
 
 }

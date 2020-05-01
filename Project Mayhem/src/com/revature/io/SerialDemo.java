@@ -14,7 +14,7 @@ public class SerialDemo {
 ////read from text document
 //		System.out.println(io.readInputStreamContents());  //save in the project level file
 		
-//		Human h1 = new Human("Matt",88, 9);
+//		Human h1 = new Human("Brad",822, 9);
 //		Human h2 = new Human("JP",231, 4);
 //		Human h3 = new Human("Tina",32, 566);
 //		
@@ -30,9 +30,9 @@ public class SerialDemo {
 //		//file is a crazy mess for us to read, but java understands it.
 		
 //read from the file
-		//takes crazy object text and converts it to readable text
-//		IOWithCollections.readHumanFile();
-//		System.out.println(IOWithCollections.humanList.toString());
+//		takes crazy object text and converts it to readable text
+		IOWithCollections.readHumanFile();
+		System.out.println(IOWithCollections.humanList.toString());
 		
 		
 	}

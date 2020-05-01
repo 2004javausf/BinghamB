@@ -7,6 +7,7 @@ import com.revature.beans.Human; //gains access to Human class
 // static import com.revature.beans.Human - gains access to only static members of class
 
 public class Driver {
+	
 	//single comment
 
 	/*
@@ -34,6 +35,8 @@ public class Driver {
 	*/
 	
 	public static void main(String[] args) {
+		
+		
 		Date d=new Date(); //when using ctrl+shift+O brings up multiple packages in which date exists
 		java.sql.Date e=new java.sql.Date(0); //fully qualified names are required to designate between multiple similarly named classes
 		//alias's do not exist in Java
@@ -47,7 +50,7 @@ public class Driver {
 		 * 		Parameters
 		 * 			String[] args - can accept an array of strings
 		 */
-		System.out.println("Bear Down");
+		System.out.println("\u001B[36m"+"This Line is in cyan, not boring old white"+"\u001B[0m");
 		Human i= new Human("Abid", 22, 200);
 		Human h= new Human();
 		System.out.println(i);

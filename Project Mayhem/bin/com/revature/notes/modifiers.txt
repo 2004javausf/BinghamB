@@ -1,7 +1,7 @@
 Access Modifiers
 
 	Public
-		any class in any package can access
+		any class in the package or anything referencing the package can access
 		classes, variables, methods, and constructors
 		
 	Private

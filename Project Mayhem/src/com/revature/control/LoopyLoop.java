@@ -12,7 +12,7 @@ public class LoopyLoop {
 	
 /* 
  * Switch Cases
- * 	a char, a boolean, or enum *a set list of constant values held in a special class*
+ * 	String, value, a char, a boolean, or enum *a set list of constant values held in a special class*
 */
 	static String color;
 	public static void whatColor(String color) {
@@ -42,9 +42,9 @@ public class LoopyLoop {
 	
 	public static void forLoop(int p) {
 		for(int i=p;i>0;i--) {
-			if(i==10) { 
+			if(i==2) { 
 				//break;
-				continue; //will halt code execution, enumerate and continue on the next enumeration
+				continue; //breaks from running the rest of the block, runs the incramentor/decrementor and continues it's next case 
 			}
 			System.out.println(i);
 		}
@@ -66,7 +66,6 @@ public class LoopyLoop {
 			System.out.println(i);
 		}
 	}
-	
 	
 /*
  *While loops

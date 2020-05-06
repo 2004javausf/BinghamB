@@ -21,7 +21,7 @@
 		<Logger name="com.revature.util.LogThis" level = "info" additivity= "false">
 			<AppenderRef ref="Console"/>
 			<AppenderRef ref = "File"/>
-		</Logger>
+	</Logger>
 		<Root>
 			<AppenderRef ref="Console"/>
 			<AppenderRef ref = "File"/>

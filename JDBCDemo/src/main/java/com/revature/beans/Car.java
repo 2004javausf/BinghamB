@@ -1,13 +1,13 @@
 package com.revature.beans;
 
-public class Student {
+public class Car {
 	private int id;
 	private String name;
 	private int sch_id;
-	public Student() {
+	public Car() {
 		
 	}
-	public Student(int id, String name, int sch_id) {
+	public Car(int id, String name, int sch_id) {
 		super();
 		this.id = id;
 		this.name = name;

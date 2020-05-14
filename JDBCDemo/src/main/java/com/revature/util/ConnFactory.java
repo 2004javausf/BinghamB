@@ -32,7 +32,6 @@ public class ConnFactory {
 		try {
 			conn = DriverManager.getConnection(url, user, password);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return conn;

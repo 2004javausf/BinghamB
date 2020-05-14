@@ -3,7 +3,7 @@ package com.revature.dao;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.revature.beans.Student;
+import com.revature.beans.Car;
 
 public interface StudentDAO {
 	/*
@@ -21,6 +21,6 @@ public interface StudentDAO {
 	public void insertStudent(int id,String name, int sch_id) throws SQLException;
 	
 	//read all
-	public List<Student> getStudentList() throws SQLException;
+	public List<Car> getStudentList() throws SQLException;
 	
 }

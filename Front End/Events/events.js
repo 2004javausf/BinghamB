@@ -5,6 +5,9 @@ function pow(event) {
   alert(element.id);
 }
 
+// bubbling will move from target to root
+// useCapture goes from root to target
+
 // window.onload = function () {
 //   this.document.getElementById("A").addEventListener("click", pow, true);
 //   this.document.getElementById("B").addEventListener("click", pow, true);

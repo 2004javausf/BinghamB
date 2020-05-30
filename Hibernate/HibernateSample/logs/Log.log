@@ -1,0 +1,16 @@
+2020-05-29 09:03:47 TRACE Driver:35 - ---Types---
+2020-05-29 09:03:47 TRACE Driver:38 - Grass ID: 1
+2020-05-29 09:03:47 TRACE Driver:39 - Fire ID: 2
+2020-05-29 09:03:47 TRACE Driver:40 - Water ID: 3
+2020-05-29 09:03:48 TRACE Driver:48 - ---Pokemons---
+2020-05-29 09:03:49 TRACE Driver:102 - ---Queries---
+2020-05-29 09:03:49 TRACE Driver:105 - ALL POKEMON: [Pokemon [number=1, name=BULBASAUR, type=PokemonType [id=1, element=GRASS]], Pokemon [number=2, name=IVYSAUR, type=PokemonType [id=1, element=GRASS]], Pokemon [number=3, name=VENUSAUR, type=PokemonType [id=1, element=GRASS]], Pokemon [number=4, name=CHARMANDER, type=PokemonType [id=2, element=FIRE]], Pokemon [number=5, name=CHARMELEON, type=PokemonType [id=2, element=FIRE]], Pokemon [number=6, name=CHARIZARD, type=PokemonType [id=2, element=FIRE]], Pokemon [number=7, name=SQUIRTLE, type=PokemonType [id=3, element=WATER]], Pokemon [number=8, name=WARTORTLE, type=PokemonType [id=3, element=WATER]], Pokemon [number=9, name=BLASTOISE, type=PokemonType [id=3, element=WATER]]]
+2020-05-29 09:03:49 TRACE Driver:114 - SELECTED BY NAME: Pokemon [number=8, name=WARTORTLE, type=PokemonType [id=3, element=WATER]]
+2020-05-29 09:03:49 TRACE Driver:116 - GETTING WARTORTLE EVOLUTION: Pokemon [number=9, name=BLASTOISE, type=PokemonType [id=3, element=WATER]]
+2020-05-29 09:03:50 TRACE Driver:119 - SELECTED BY TYPE[Pokemon [number=7, name=SQUIRTLE, type=PokemonType [id=3, element=WATER]], Pokemon [number=8, name=WARTORTLE, type=PokemonType [id=3, element=WATER]], Pokemon [number=9, name=BLASTOISE, type=PokemonType [id=3, element=WATER]]]
+2020-05-29 09:03:50 TRACE Driver:122 - SELECTED BY PATTERN WITH HQL: [Pokemon [number=6, name=CHARIZARD, type=PokemonType [id=2, element=FIRE]], Pokemon [number=5, name=CHARMELEON, type=PokemonType [id=2, element=FIRE]], Pokemon [number=4, name=CHARMANDER, type=PokemonType [id=2, element=FIRE]]]
+2020-05-29 09:03:50 TRACE Driver:125 - SELECT BY NAME WITH NATIVE QUERY: Pokemon [number=7, name=SQUIRTLE, type=PokemonType [id=3, element=WATER]]
+2020-05-29 09:03:50 TRACE Driver:128 - --Trainers--
+2020-05-29 09:03:51 TRACE Driver:145 - 50
+2020-05-29 09:03:51 TRACE Driver:155 - 51
+2020-05-29 09:03:51 TRACE Driver:159 - Trainers that own Wartortle: [Trainer [id=50, name=ASH, age=150], Trainer [id=51, name=PETER, age=210]]
